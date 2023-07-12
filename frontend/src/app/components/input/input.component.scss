@@ -1,0 +1,46 @@
+.container {
+    width: fit-content;
+    // background-color: red;
+
+    &__label {
+        h1 {
+            font-family: 'Barlow', sans-serif;
+            font-size: 16px;
+            color: #385972;
+        }
+    }
+
+    &__inputContainer {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        min-width: 300px;
+        font-size: 16px;
+        color: #385972;
+        min-height: 30px;
+        border-bottom: 1px solid #000000;
+
+        input {
+            width: 100%;
+            padding: 8px 0;
+            border: none;
+            background-color: transparent;
+
+
+            &::placeholder {
+                font-style: italic;
+                color: #385972;
+                font-size: 16px;
+            }
+
+            &:focus {   
+                outline: none;
+            }
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
