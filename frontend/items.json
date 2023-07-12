@@ -1,0 +1,137 @@
+[
+    {
+        "_id": {
+            "$oid": "6367fe5134c318dbcf0d848c"
+        },
+        "name": "Absorbent Substrate",
+        "image_url": "Absorbent_Substrate",
+        "quote": "This sticky compound excels at absorbing other chemicals.",
+        "rarity": "Rare",
+        "category": [
+            "Resource"
+        ],
+        "weight": 0.25,
+        "required_level": 84,
+        "crafting_time": "12s",
+        "crafted_in": "Chemistry Bench",
+        "ingredients": [
+            {
+                "name": "Black Pearl",
+                "quantity": 8
+            },
+            {
+                "name": "Sap",
+                "quantity": 8
+            },
+            {
+                "name": "Oil",
+                "quantity": 8
+            }
+        ],
+        "user_inventory": [
+            {
+                "user_id": {
+                    "$oid": "6367fe5134c318dbcf0d828c"
+                },
+                "locations": [
+                    {
+                        "_id": {
+                            "$oid": "6237fe5134c318dbcf0d848c"
+                        },
+                        "name": "Location 1",
+                        "quantity": 10
+                    },
+                    {
+                        "_id": {
+                            "$oid": "2167fe5134c318dbcf0d848c"
+                        },
+                        "name": "Location 2",
+                        "quantity": 20
+                    }
+                ]
+            },
+            {
+                "user_id": {
+                    "$oid": "6367fe3234c318dbcf0d848c"
+                },
+                "locations": [
+                    {
+                        "_id": {
+                            "$oid": "6367fe5124c318dbcf0d848c"
+                        },
+                        "name": "Location 1",
+                        "quantity": 10
+                    },
+                    {
+                        "_id": {
+                            "$oid": "6327fe5134c318dbcf0d848c"
+                        },
+                        "name": "Location 2",
+                        "quantity": 20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "1567fe5134c318dbcf0d848c"
+        },
+        "name": "Achatina Paste",
+        "image_url": "Cementing_Paste",
+        "quote": "Achatina secretion chemically similar to Cementing Paste.",
+        "rarity": "Uncommon",
+        "category": [
+            "Resource"
+        ],
+        "weight": 0.01,
+        "required_level": null,
+        "crafting_time": "",
+        "crafted_in": "",
+        "ingredients": [],
+        "user_inventory": [
+            {
+                "user_id": {
+                    "$oid": "6367fe5134c312dbcf0d848c"
+                },
+                "locations": [
+                    {
+                        "id": {
+                            "$oid": "6321fe5134c318dbcf0d848c"
+                        },
+                        "name": "Location 1",
+                        "quantity": 5
+                    },
+                    {
+                        "id": {
+                            "$oid": "2167fe5134c318dbcf0d848c"
+                        },
+                        "name": "Location 2",
+                        "quantity": 6
+                    }
+                ]
+            },
+            {
+                "user_id": {
+                    "$oid": "6332fe5134c318dbcf0d848c"
+                },
+                "locations": [
+                    {
+                        "id": {
+                            "$oid": "6197fe5134c318dbcf0d848c"
+                        },
+                        "name": "Location 1",
+                        "quantity": 7
+                    },
+                    {
+                        "id": {
+                            "$oid": "6367fe5134c318dbcf0d841c"
+                        },
+                        "name": "Location 2",
+                        "quantity": 6
+                    }
+                ]
+            }
+        ]
+    }
+]
